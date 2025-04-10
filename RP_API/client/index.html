@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello there</title>
+    <meta charset="utf-8" />
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #24292e;
+            color: #a1a1a1;
+        }
+
+        .app-div {
+            display: flex;
+            align-items: center; 
+            flex-direction: column;
+        }
+
+        p {
+            color: #a1a1a1;
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px; 
+            border-radius: 6px; 
+            overflow: hidden; 
+        }
+
+        th, td {
+            padding: 8px 12px; 
+            text-align: left; 
+            color: #c7c8d0;
+        }
+
+        th {
+            background-color: #ffd04e;
+            color: #16181a;
+            font-weight: 600; 
+            text-transform: capitalize; 
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #24292e;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #1a1e22; 
+        }
+
+
+        tbody tr:hover {
+            background-color: #000000;
+        }
+
+        /* Style for last row */
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .rounded-button {
+            background-color: rgb(255, 187, 0);
+            color: #333;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 16px;
+            margin: 10px 2px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        .rounded-button:hover {
+            background-color: rgb(255, 203, 61);
+        }
+
+        .rounded-button:active {
+            transform: scale(0.95);
+        }
+
+        .rounded-input {
+            margin: 5px 2px;
+            padding: 8px 16px;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #24292e;
+            background-color: #ffffff;
+            transition: border-color 0.2s;
+        }
+
+        .rounded-input:focus {
+            outline: none;
+            border-color: #000000;
+            box-shadow: 0 0 0 2px rgba(3, 102, 213, 0.2); 
+        }
+
+        .rounded-input::placeholder {
+            color: #6a737d;
+            opacity: 1;
+        }
+
+        .rounded-input:disabled {
+            background-color: #f6f8fa;
+            color: #6a737d;
+            border-color: #d1d5da;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-div">
+        <p>
+            <input id="filename_input" class="rounded-input" type="text" placeholder="путь к файлу с данными"></input>
+            <button class="rounded-button" onclick="loadFromFile()">Загрузить</button>
+        </p>
+        <p>
+            <input id="location_input" class="rounded-input" type="text" placeholder="локация"></input>
+            <button class="rounded-button" onclick="search()">Найти</button>
+        </p>
+    </div>
+
+
+    <table id="result"></table>
+
+
+        <script>
+            function loadFromFile() {
+                var filename = document.getElementById("filename_input").value;
+
+                fetch(`api/AdPlatform/Load?` + new URLSearchParams({
+                    filename: filename
+                }).toString())
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("result").innerHTML = data.map(dat =>
+                            `<tr><td>${dat}</td></tr>`
+                        )
+                    })
+            }
+
+
+            function search() {
+                var location = document.getElementById("location_input").value
+
+                console.log(location);
+
+                fetch(`api/AdPlatform/Search?` + new URLSearchParams({
+                    location: location
+                }).toString())
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("result").innerHTML = data.map(dat =>
+                            `<tr><td>${dat}</td></tr>`
+                        )
+                    })
+            }
+        </script>
+</body>
+</html>

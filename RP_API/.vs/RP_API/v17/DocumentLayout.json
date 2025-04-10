@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\controllers\\adplatformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:controllers\\adplatformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\structures\\tree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:structures\\tree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\structures\\tree\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:structures\\tree\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 126,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\input.txt",
+              "RelativeToolTip": "input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-09T12:57:14.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Data.cs",
+              "RelativeToolTip": "Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:53:22.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\client\\index.html",
+              "RelativeDocumentMoniker": "client\\index.html",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\client\\index.html",
+              "RelativeToolTip": "client\\index.html",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-09T06:17:35.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdPlatformController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Controllers\\AdPlatformController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdPlatformController.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Controllers\\AdPlatformController.cs",
+              "RelativeToolTip": "Controllers\\AdPlatformController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T05:57:48.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Functions.cs",
+              "RelativeDocumentMoniker": "Functions.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Functions.cs",
+              "RelativeToolTip": "Functions.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T07:03:52.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Structures\\Tree\\Node.cs",
+              "RelativeDocumentMoniker": "Structures\\Tree\\Node.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Structures\\Tree\\Node.cs",
+              "RelativeToolTip": "Structures\\Tree\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:55:48.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tree.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Structures\\Tree\\Tree.cs",
+              "RelativeDocumentMoniker": "Structures\\Tree\\Tree.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Structures\\Tree\\Tree.cs",
+              "RelativeToolTip": "Structures\\Tree\\Tree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:55:16.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:01:20.322Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

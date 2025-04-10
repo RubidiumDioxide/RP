@@ -1,0 +1,7 @@
+Yandex Direct:/ru
+Revdinskiy Rabochiy:/ru/svrd/revda,/ru/svrd/pervik
+Gazeta Uralskih Moskvichey:/ru/msk,/ru/permobl,/ru/chelobl
+Krytaya Reklama:/ru/svrd
+Nekrutaya Reklama:/ru/obl0,/ru/obl1,/ru/msk/obl3
+Mamin Marketolog:ru/rt/chistai,ru/rt/zainsk
+Olegk:/ru/rt,/ru/msk
