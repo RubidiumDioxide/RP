@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RP_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f674cc04ea9095566230ba782e2a0d56214f2434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+551b21277d1b661b40925c6cb7fd0a91d1a4f24a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RP_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RP_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

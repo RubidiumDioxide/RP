@@ -40,8 +40,14 @@ namespace RP_API.Controllers
                 return BadRequest("filename can't contain spaces");
             try
             {
-                if (Data.tree.Value != null)
+                if (Data.tree.Value != null) {
+                    var result = Functions.getPlatforms(Data.tree, location);
+                    if(result.Count() == 0)
+                    {
+                        return NotFound(); 
+                    }
                     return Ok(Functions.getPlatforms(Data.tree, location));
+                }
                 else
                     return BadRequest("no data was loaded");
             }

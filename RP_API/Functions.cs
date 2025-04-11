@@ -1,25 +1,29 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using RP_API.Structures.Tree;
 using System.IO;
+using System.Text;
 using System.Xml.Linq;
+using System.Collections.Generic;
+
 
 namespace RP_API
 {
     public static class Functions
     {
-        public static IEnumerable<string> ReadFrom(string filename)
+    public static IEnumerable<string> ReadFrom(string filename)
+    {
+        using (TextReader reader = new StreamReader(filename, Encoding.UTF8))
         {
             string line;
-            using (var reader = File.OpenText(filename))
+            while ((line = reader.ReadLine()) != null)
             {
-                while ((line = reader.ReadLine()) != null)
-                {
-                    yield return line;
-                }
+                yield return line;
             }
-        } 
+        }
+    }
 
-        static Tree ParseLine(Tree tree, string line)
+
+    static Tree ParseLine(Tree tree, string line)
         {
             // Line Example: Яндекс.Директ:/ru 
             string adPlatformName = line.Split(':').ToArray()[0];
@@ -70,9 +74,6 @@ namespace RP_API
         {
             List<string> adPlatforms = new List<string>();
 
-            //if (path.Contains("2%F"))
-             //   path.Replace("2%F", "/"); 
-
             string[] components = path.TrimStart('/').Split("/");
             int len = components.Length; 
 
@@ -81,10 +82,8 @@ namespace RP_API
             for(int i = 0; i < len; i++)
             {
                 if(node.Value == components[i])
-                {
                     foreach (string s in node.strings)
                         adPlatforms.Add(s); 
-                }
 
                 if(i + 1 < len)
                 {

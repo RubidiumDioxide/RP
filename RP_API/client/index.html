@@ -16,8 +16,6 @@
 
         .app-div {
             display: flex;
-            align-items: center; 
-            flex-direction: column;
         }
 
         p {
@@ -26,7 +24,7 @@
         }
 
         table {
-            width: 100%;
+            width: 50%;
             border-collapse: collapse;
             margin-bottom: 20px; 
             border-radius: 6px; 
@@ -37,26 +35,6 @@
             padding: 8px 12px; 
             text-align: left; 
             color: #c7c8d0;
-        }
-
-        th {
-            background-color: #ffd04e;
-            color: #16181a;
-            font-weight: 600; 
-            text-transform: capitalize; 
-        }
-
-        tbody tr:nth-child(even) {
-            background-color: #24292e;
-        }
-
-        tbody tr:nth-child(odd) {
-            background-color: #1a1e22; 
-        }
-
-
-        tbody tr:hover {
-            background-color: #000000;
         }
 
         /* Style for last row */
@@ -70,8 +48,8 @@
             border: none;
             border-radius: 6px;
             padding: 10px 16px;
-            margin: 10px 2px;
-            font-size: 16px;
+            margin: 5px 2px;
+            font-size: 15px;
             cursor: pointer;
             transition: background-color 0.3s, transform 0.1s;
         }
@@ -112,6 +90,10 @@
             color: #6a737d;
             border-color: #d1d5da;
         }
+
+        .invisible{
+            display: none;  
+        }
     </style>
 </head>
 <body>
@@ -127,40 +109,83 @@
     </div>
 
 
-    <table id="result"></table>
+    <table>
+        <th>
+            <h2 id="search_result_h2" class="invisible">Найденные платформы: </h2>
+        </th>
+        <tr>
+            <td>
+                <table id="search_result"></table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <th>
+            <h2 id="load_result_h2" class="invisible">Загруженные данные: </h2>
+        </th>
+        <tr>
+            <td>
+                <table id="load_result"></table>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        function loadFromFile() {
+            var filename = document.getElementById("filename_input").value;
+
+            fetch(`api/AdPlatform/Load?` + new URLSearchParams({
+                filename: filename
+            }).toString())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Ошибка при загрузке данных из файла. Проверьте путь. Код: ${response.status}`);
+                        return;
+                    }
+                    else {
+                        return response.json();
+                    }
+                })
+                .then(data => {
+                    const resultHTML = data.map(dat => `<tr><td>${dat}</td></tr>`).join('');
+                    document.getElementById("load_result").innerHTML = resultHTML;
+                    document.getElementById("load_result_h2").style.display = "block";
+                })
+                .catch(error => {
+                    console.error(error);
+                    document.getElementById("load_result").innerHTML = `<tr><td>Error: ${error.message}</td></tr>`;
+                    document.getElementById("load_result_h2").style.display = "none";
+                });
+        }
 
 
-        <script>
-            function loadFromFile() {
-                var filename = document.getElementById("filename_input").value;
+        function search() {
+            var location = document.getElementById("location_input").value
 
-                fetch(`api/AdPlatform/Load?` + new URLSearchParams({
-                    filename: filename
-                }).toString())
-                    .then(response => response.json())
-                    .then(data => {
-                        document.getElementById("result").innerHTML = data.map(dat =>
-                            `<tr><td>${dat}</td></tr>`
-                        )
-                    })
-            }
-
-
-            function search() {
-                var location = document.getElementById("location_input").value
-
-                console.log(location);
-
-                fetch(`api/AdPlatform/Search?` + new URLSearchParams({
-                    location: location
-                }).toString())
-                    .then(response => response.json())
-                    .then(data => {
-                        document.getElementById("result").innerHTML = data.map(dat =>
-                            `<tr><td>${dat}</td></tr>`
-                        )
-                    })
-            }
-        </script>
+            fetch(`api/AdPlatform/Search?` + new URLSearchParams({
+                location: location
+            }).toString())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Ошибка при поиске данных. Проверьте локацию. Код: ${response.status}`);
+                        return;
+                    }
+                    else {
+                        return response.json();
+                    }
+                })
+                .then(data => {
+                    const resultHTML = data.map(dat => `<tr><td>${dat}</td></tr>`).join('');
+                    document.getElementById("search_result").innerHTML = resultHTML;
+                    document.getElementById("search_result_h2").style.display = "block";
+                })
+                .catch(error => {
+                    console.error(error);
+                    document.getElementById("search_result").innerHTML = `<tr><td>Error: ${error.message}</td></tr>`;
+                    document.getElementById("search_result_h2").style.display = "none";
+                });
+        }
+    </script>
 </body>
 </html>

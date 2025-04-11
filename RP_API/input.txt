@@ -1,7 +1,65 @@
-Yandex Direct:/ru
-Revdinskiy Rabochiy:/ru/svrd/revda,/ru/svrd/pervik
-Gazeta Uralskih Moskvichey:/ru/msk,/ru/permobl,/ru/chelobl
-Krytaya Reklama:/ru/svrd
-Nekrutaya Reklama:/ru/obl0,/ru/obl1,/ru/msk/obl3
-Mamin Marketolog:ru/rt/chistai,ru/rt/zainsk
-Olegk:/ru/rt,/ru/msk
+﻿Яндекс.Директ:/ru
+Ревдинский рабочий:/ru/svrd/revda,/ru/svrd/pervik
+Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl
+Крутая реклама:/ru/svrd
+ТехноТек:/ru/svrd/techno,/ru/svrd/techland
+Экономист:/ru/msk,/ru/svd,/ru/ural
+Успешный бизнес:/ru/svrd
+Креативные решения:/ru/msk,/ru/volga
+Мировая реклама:/ru/svrd/mundial,/ru/svrd/global
+Инновации дня:/ru/msk,/ru/svd
+Разумный маркетинг:/ru/svrd
+Тренды 2023:/ru/msk,/ru/svrd/novelties
+Качество обслуживания:/ru/svrd
+Профессиональная команда:/ru/msk,/ru/svrd
+Умные технологии:/ru/msk,/ru/real
+Брендовые решения:/ru/svrd
+Деловые встречи:/ru/msk,/ru/svrd/biz
+Устойчивое развитие:/ru/msk,/ru/svrd/sustain
+Цифровые инновации:/ru/svrd/digital
+Стартапы на старте:/ru/msk,/ru/svrd/start
+Лидеры рынка:/ru/msk,/ru/svrd
+Услуги на высшем уровне:/ru/msk,/ru/svrd/premium
+Эффективная реклама:/ru/svrd
+Высокие технологии:/ru/msk,/ru/svrd/tech
+Большие идеи:/ru/msk,/ru/svrd/ideas
+Успешные стартапы:/ru/svrd
+Ваш финансы:/ru/msk,/ru/svrd/finance
+Эко-бизнес:/ru/msk,/ru/svrd/eco
+Креативные идеи:/ru/svrd/creative
+Будущее бизнеса:/ru/msk,/ru/svrd/future
+Рынок недвижимости:/ru/msk,/ru/svrd/realestate
+Эффективные IT решения:/ru/msk,/ru/svrd/ше
+Программные разработки:/ru/msk,/ru/svrd/software
+Бизнес-тренинги:/ru/msk,/ru/svrd/training
+Образование и карьера:/ru/msk,/ru/svrd/education
+Интернет-магазины:/ru/msk,/ru/svrd/ecommerce
+Умный дом:/ru/msk,/ru/svrd/smart
+Финансовый анализ:/ru/msk,/ru/svrd/analysis
+Корпоративные мероприятия:/ru/msk,/ru/svrd/corporate
+Социальные сети:/ru/msk,/ru/svrd/social
+Реклама в Интернете:/ru/msk,/ru/svrd/internet
+Технологические тренды:/ru/svrd/trends
+Дизайн интерьеров:/ru/msk,/ru/svrd/design
+Медиа и реклама:/ru/msk,/ru/svrd/media
+Стратегическое мышление:/ru/msk,/ru/svrd/strategy
+Глобальный маркетинг:/ru/msk,/ru/svrd/global
+Брендинг и имидж:/ru/msk,/ru/svrd/branding
+Менеджмент проектов:/ru/msk,/ru/svrd/project
+Консалтинг:/ru/msk,/ru/svrd/consulting
+Аналитика рынка:/ru/msk,/ru/svrd/analytics
+Управление бизнесом:/ru/msk,/ru/svrd/management
+Комплексные решения:/ru/msk,/ru/svrd/complex
+Эффективные стратегии:/ru/msk,/ru/svrd/strategy
+Брендовая идентичность:/ru/msk,/ru/svrd/identity
+Креативные подходы:/ru/msk,/ru/svrd/approaches
+Личный подход:/ru/msk,/ru/svrd/personal
+Онлайн-образование:/ru/msk,/ru/svrd/online
+Новые технологии:/ru/msk,/ru/svrd/newtech
+Мобильные приложения:/ru/msk,/ru/svrd/mobile
+Виртуальная реальность:/ru/msk,/ru/svrd/vr
+Искусственный интеллект:/ru/msk,/ru/svrd/ai
+Кибербезопасность:/ru/msk,/ru/svrd/cyber
+Олегк:/ru/msk,ru/rt
+Мансур Гтдуллин:/ru/rt/kmpo,/ru/rt/kazan
+Рубидиум Маркетинг:/ru/rt/chistai,/ru/rt/kazan

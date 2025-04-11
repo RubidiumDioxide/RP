@@ -17,7 +17,6 @@ C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\RP_API.As
 C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\RP_API.csproj.CoreCompileInputs.cache
 C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\RP_API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\RP_API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\RP_API.sourcelink.json
 C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\scopedcss\bundle\RP_API.styles.css
 C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\storage\courses\effective mobile\RP_API\obj\Debug\net8.0\staticwebassets.development.json

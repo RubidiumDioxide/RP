@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\controllers\\adplatformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:controllers\\adplatformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\controllers\\adplatformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:controllers\\adplatformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{075A9AC1-0361-420D-8537-F53155A558F6}|RP_API.csproj|c:\\users\\user\\storage\\courses\\effective mobile\\rp_api\\structures\\tree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 126,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,52 +50,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Data.cs",
-              "RelativeDocumentMoniker": "Data.cs",
-              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Data.cs",
-              "RelativeToolTip": "Data.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:53:22.429Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\client\\index.html",
-              "RelativeDocumentMoniker": "client\\index.html",
-              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\client\\index.html",
-              "RelativeToolTip": "client\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-09T06:17:35.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AdPlatformController.cs",
               "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Controllers\\AdPlatformController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdPlatformController.cs",
               "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Controllers\\AdPlatformController.cs",
               "RelativeToolTip": "Controllers\\AdPlatformController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:57:48.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "input.txt",
-              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\input.txt",
-              "RelativeDocumentMoniker": "input.txt",
-              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\input.txt",
-              "RelativeToolTip": "input.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-09T12:57:14.123Z",
+              "WhenOpened": "2025-04-09T05:57:48.036Z",
               "EditorCaption": ""
             },
             {
@@ -106,9 +69,48 @@
               "RelativeDocumentMoniker": "Functions.cs",
               "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Functions.cs",
               "RelativeToolTip": "Functions.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAwFsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T07:03:52.006Z"
+              "WhenOpened": "2025-04-09T07:03:52.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\input.txt",
+              "RelativeToolTip": "input.txt",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-09T12:57:14.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\client\\index.html",
+              "RelativeDocumentMoniker": "client\\index.html",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\client\\index.html",
+              "RelativeToolTip": "client\\index.html",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-09T06:17:35.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\User\\storage\\courses\\effective mobile\\RP_API\\Data.cs",
+              "RelativeToolTip": "Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:53:22.429Z"
             },
             {
               "$type": "Document",
